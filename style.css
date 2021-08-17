@@ -1,0 +1,67 @@
+*{
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: cyan;
+    /* font-size: 3rem; */
+}
+
+label, input, div{
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    text-align: center;
+}
+
+label{
+    text-decoration: underline;
+}
+
+.submit, .date{
+    /* text-align: center; */
+    margin: 12px auto;
+}
+
+.submit{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(253, 224, 180);
+}
+.main-content{
+    /* border: 2px solid brown; */
+    display: block;
+    /* width: auto; */
+    /* align-items: center; */
+    /* margin: auto; */
+}
+
+@media screen and (max-width: 1000px){
+    *{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    *{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    *{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 470px){
+    *{
+        font-size: 1rem;
+    }
+}
